@@ -1,58 +1,67 @@
-print("=" * 50)
-print("       <^...--> LESSON IN PYTHON <--...^>      ")
-print("=" * 50)
+    print("INVALID CODE☠️")
+    exit()
 print("")
-while True:
-    print("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
-    print("        *..AVAILABLE LESSON IN PYTHON..*       ")
-    print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
-    print("[A>      Python syntax                                ")
-    print("[B>      Python variables                             ")
-    print("[C>      Python numbers                               ")
-    print("[D>      Python list                                  ")
-    print("[E>      Python if-else                               ")
-    print("[F>      Python while loops and for loops             ")
-    print("[G>      GAME FOR PYTHON                              ")
-    print("[H>      END                                          ")
-    print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+print("")
+
+print("         ...SHORT REVIEW IN PYTHON...                ")
+print("")
+review = input("Enter (G) to review some lesson: ").upper()
+
+
+if review == "G":
     print("")
-    choice = input("Enter your choice lesson A-F: ")
-    if choice == "A":
+    print("=" * 50)
+    print("              *..LESSON IN PYTHON..*        ")
+    print("=" * 50)
+
+    print("[1]   =   Python syntax                                ")
+    print("[2]   =   Python variables                             ")
+    print("[3]   =   Python numbers                               ")
+    print("[4]   =   Python list                                  ")
+    print("[5]   =   Python if-else                               ")
+    print("[6]   =   Python while loops and for loops             ")
+    print("=" * 50)
+    print("")
+    s1 = int(input("If you choose (1-6), you will be reviewed. : "))
+    print("")
+
+
+    if s1 == 1:
         print("You can easy to execute an message in the line☺️")
-        print("\nExample of python syntax is")
+        print("\nExample of python syntax is:")
         print("print('Hello World!')")
         print("output:'Hello World!")
-    elif choice == "B":
+    elif s1 == 2:
         print("The python variable is the serving container of the word or number🥰")
         print("And you can storing an data")
-        print("\nExample of python variable is")
+        print("\nExample of python variable is:")
         print("x = 5")
         print("y = 3")
         print("print(x)")
         print('print(y)')
-    elif choice == "C":
+    elif s1 == 3:
         print("As for python numbers, we use numeric numbers like int, float and complex.😉")
         print("and used an type()")
         print("int, is a whole number")
         print("float, this is decimal number")
         print("complex, is a mix of number and word")
-        print("\nExample of python numbers is")
+        print("\nExample of python numbers is:")
         print("x = 1 int ")
         print("y = 2.5 float")
         print("r = 6f complex")
         print("print(type(x)")
         print("print(type(y)")
         print("print(type(r)")
-    elif choice == "D":
+    elif s1 == 4:
         print("The python list, are used to store multiple items in a single variable.☺️")
         print("you are created list using square brackets.")
         print("\nExample of python list is")
         print("name = [jian, carlo, clyde ]")
         print("print(name)")
-    elif choice == "E":
+    elif s1 == 5:
         print("The python if-else, you may use are logical operators from mathematics.🤗")
         print("You can use the if, elif , else")
-        print("\nExample of python if-else is")
+        print("\nExample of python if-else is:")
         print("age = 25")
         print("if age < 13:")
         print("print('You are a child')")
@@ -64,10 +73,10 @@ while True:
         print("  print('You are a senior')")
         print("else:")
         print("  print('invalid code')")
-    elif choice == "F":
+    elif s1 == 6:
         print("For while loops, you can execute a set of statements as long as a condition is true.😜")
         print("For for loops, you can execute a set of statements, once for each item in a list, tuple, set etc.")
-        print("\nExample of python while loops and for loops is")
+        print("\nExample of python while loops and for loops is:")
         print("WHILE LOOPS ")
         print(" count = 1")
         print(" while count <= 6:")
@@ -76,11 +85,13 @@ while True:
         print("\nFOR LOOPS ")
         print("for number in range(1,11)")
         print("print(number)")
-    elif choice == "G":
-        print("GAME FOR PYTHON")
-        print("[1]   =          Python syntax                     ")
-        print("[2]   =          Python variables                  ")
-        print("[3]   =          Python numbers                    ")
-        print("[4]   =          Python list                       ")
-        print("[5]   =          Python if-else                    ")
-        print("[6]   =          Python while loops and for loops  ")
+    else:
+        print("INVALID CODE PLEASE TRY AGAIN😭")
+        exit("")
+    print("")
+    print("")
+
+print("")
+print("               *.--> ACTIVITY <--.*          ")
+print("-" * 50)
+print("")
